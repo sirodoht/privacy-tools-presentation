@@ -1,45 +1,275 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Untitled yellow</title>
     <meta charset="utf-8">
     <style>
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+      @import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-      body { font-family: 'Droid Serif'; }
+      body {
+        font-family: 'Noto Serif';
+      }
+
       h1, h2, h3 {
-        font-family: 'Yanone Kaffeesatz';
+        font-family: 'Open Sans';
         font-weight: normal;
       }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      .remark-slide-content {
+        background: #ffe000;
+      }
+
+      .remark-code, .remark-inline-code {
+        font-family: 'Ubuntu Mono';
+      }
+
+      .red {
+        background: #f00;
+        color: #fff;
+      }
+
+      .column:first-of-type {float:left}
+      .column:last-of-type {float:right}
+
+      .split-60 .column:first-of-type {width: 60%}
+      .split-60 .column:last-of-type {width: 40%}
+
+      .split-50 {
+        display: flex;
+        flex-direction: row;
+      }
+      .flexcol {
+        display: flex;
+        flex-direction: row;
+      }
+      .split-50 .flexcol:first-of-type {
+        width: 50%
+      }
+      .split-50 .flexcol:last-of-type {
+        width: 50%
+      }
     </style>
   </head>
   <body>
     <textarea id="source">
 
+---
+
 class: center, middle
 
-# Privacy ρε.
+# Cybernetic Privacy
+
+A cooler title for a presentation initially named "Covering
+<br>internet needs with privacy focused tools"
 
 ---
 
-# Agenda
-
-1. Introduction
-2. Deep-dive
-3. ...
+## Physical and digital domain
 
 ---
 
-# Introduction
+## Digital domain
+
+---
+
+## Digital domain
+
+* Trends
+
+---
+
+## Digital domain
+
+* Trends
+* Economic model
+
+---
+
+## Digital domain
+
+* Trends
+* Economic model
+* Ads
+
+---
+
+## Digital domain
+
+* Trends
+* Economic model
+* Ads
+
+---
+
+class: center, middle
+
+# «Εγώ δεν έχω να κρύψω τίποτα»
+
+---
+
+# Google
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis.
+Mauris urna dolor, placerat ac sagittis quis. Iure, doloribus nostrum! Ab magnam voluptatibus nisi ex cupiditate dignissimos voluptas!
+Soluta ratione assumenda deleniti enim atque voluptate earum velit alias fuga.
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
+quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia
+deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+
+---
+
+# Facebook
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+---
+
+class: center, middle, red
+
+### [interlude]
+
+---
+
+class: center, middle, red
+
+# How to make a bomb with MicroPython
+
+---
+
+class: middle, red
+
+<img src="images/py-bomb.png" alt="python bomb" width="100%">
+
+---
+
+class: split-60
+
+.column[
+## Assets
+* Email
+* Storage
+* Passwords
+* Photos
+* Posts (blog, social networks)
+* Documents / Spreadsheets
+* Domains
+]
+.column[
+## Tools
+* Browser
+* Search
+* Analytics
+* Maps
+* 2FA/MFA
+* DNS
+]
+
+---
+
+## Alternatives - High quality pt 1
+
+* Browser
+  * Firefox
+* Email
+  * fastmail.com
+  * migadu.com
+  * mailbox.org
+  * posteo.de
+  * protonmail.com
+  * tutanota.com
+* Documents / Spreadsheets
+  * notion.so
+  * airtable.com
+  * coda.io
+
+---
+
+## Alternatives - High quality pt 2
+
+* Storage
+  * Nextcloud
+  * sync.com
+  * pcloud.com
+  * tresorit.com
+* Passwords
+  * KeyPass
+  * Bitwarden
+  * pass cli
+* Blogging
+  * Self-hosted
+  * Mastodon
+  * Ghost
+
+---
+
+## Alternatives - Medium quality
+
+* Chat
+  * Signal
+  * Telegram
+  * Wire
+  * Keybase
+* Analytics
+  * clicky.com
+  * simpleanalytics.com
+  * usefathom.com
+* DNS
+  * afraid.org
+  * dnsimple.com
+  * noip.com
+  * dnsmadeeasy.com
+
+---
+
+## Alternatives - Questionable quality
+
+* Social networks
+  * Mastodon
+  * ZeroNet
+  * PixelFed
+  * Scuttlebutt
+  * Manyverse
+* Photos
+  * flickr.com
+  * smugmug.com
+
+---
+
+## Alternatives - Bad quality
+
+* Search
+  * duckduckgo.com
+  * qwant.com
+  * ecosia.org
+  * startpage.com
+* Maps
+  * OpenStreetMaps
+* Domains
+  * namecheap.com
+  * hetzner.com
+  * iwantmyname.com
+  * nearlyfreespeech.net
+
+---
+
 
     </textarea>
     <script src="remark-a5a3c67.min.js">
     </script>
     <script>
-      var slideshow = remark.create();
+      var slideshow = remark.create({
+        slideNumberFormat: '',
+      });
     </script>
   </body>
 </html>
